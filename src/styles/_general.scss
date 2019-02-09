@@ -1,0 +1,47 @@
+.app {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto 50px;
+}
+
+.app-logo {
+  text-decoration: none;
+  color: $color-secondary;
+  font-size: 2.5rem;
+}
+
+.app-header {
+  &__heading {
+    margin: 0 0 30px;
+  }
+}
+
+.title {
+  font-size: 2rem;
+  width: 100%;
+}
+
+.cart-toggle-btn {
+  border: 0;
+  background-color: $color-primary;
+  font-size: 1rem;
+  text-align: center;
+  padding: 12px;
+  cursor: pointer;
+  color: $color-white;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.cart-items-list {
+  max-width: 800px;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    width: auto;
+    margin-right: 20px;
+  }
+}
